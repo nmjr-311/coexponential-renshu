@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:coexponential-renshu"
+
+    - path: "app/Main.hs"
+      component: "coexponential-renshu:exe:coexponential-renshu"
